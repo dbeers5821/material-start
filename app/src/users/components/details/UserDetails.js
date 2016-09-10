@@ -1,9 +1,14 @@
+<<<<<<< HEAD
+=======
+import UserDetailsController from './UserDetailsController'
+>>>>>>> refs/remotes/angular/es6
 
 export default {
   name : 'userDetails',
   config : {
     bindings         : {  selected: '<' },
     templateUrl      : 'src/users/components/details/UserDetails.html',
+<<<<<<< HEAD
     controller       : [ '$mdBottomSheet', '$log', class UserDetailsController  {
 
       /**
@@ -55,3 +60,8 @@ export default {
 };
 
 
+=======
+    controller       : [ '$mdBottomSheet', '$log', UserDetailsController ]
+  }
+};
+>>>>>>> refs/remotes/angular/es6
